@@ -45,7 +45,7 @@ const Contact = () => {
                 <h1 className="text-[1.2rem] sm:text-2xl font-poppins font-bold ">
                   Mail
                 </h1>
-                <p className="text-gray-500 font-poppins">ajay.dev@gmail.com</p>
+                <p className="text-gray-500 font-poppins">ajayr.wdev@gmail.com</p>
               </div>
             </div>
           </div>
