@@ -123,7 +123,16 @@ const Experience = () => {
           </div>
         </div>
         {/* cv Button */}
-        
+        <div className="grid justify-center pb-20">
+          <a href= {resume} download="resume.pdf">
+            <button
+              type="button"
+              className="focus:outline-none text-white bg-primary hover:bg-primary focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-lg px-5 py-2.5 mb-2 dark:primary dark:hover:bg-purple-700 dark:focus:ring-purple-900 transition-all duration-300 hover:scale-90"
+            >
+              Download CV
+            </button>
+          </a>
+        </div>
         {/*{/*Clients review}
       <div className=" grid justify-center text-center mt-5">
         <h4 className="text-1xl font-poppins font-semibold">
