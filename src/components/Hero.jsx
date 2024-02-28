@@ -32,8 +32,8 @@ const Hero = () => {
                 data-aos-delay="300"
                 className="font-poppins text-[1.1rem] text-gray-500 dark:text-gray-300"
               >
-                Hi, I'm Ajay Kumar.A passionate Front-end React Developer based
-                in Coimbatore, India 📍
+                Hi, I'm Ajay Kumar. A passionate Front-end React Developer based
+                in Chennai, India 📍
               </p>
               <div
                 data-aos="fade-up"

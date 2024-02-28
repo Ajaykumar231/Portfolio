@@ -3,6 +3,8 @@ import Mail from "../assets/icons/mail.png";
 import Map from "../assets/icons/map.png";
 import Fotter from "./Fotter";
 const Contact = () => {
+  const email = "ajay.fdev@gmail.com";
+  const loaction = "Chennai, India";
   return (
     <>
       <div
@@ -34,7 +36,7 @@ const Contact = () => {
                 <h1 className="text-[1.2rem] sm:text-2xl font-poppins font-bold ">
                   Location
                 </h1>
-                <p className="text-gray-500 font-poppins">Coimbatore, India</p>
+                <p className="text-gray-500 font-poppins">{loaction}</p>
               </div>
             </div>
             <div className="flex gap-4 text-start transition-all duration-300 hover:scale-105">
@@ -46,7 +48,7 @@ const Contact = () => {
                   Mail
                 </h1>
                 <p className="text-gray-500 font-poppins">
-                  ajayr.wdev@gmail.com
+                  {email}
                 </p>
               </div>
             </div>
